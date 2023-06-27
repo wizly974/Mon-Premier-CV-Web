@@ -1,0 +1,75 @@
+/**************
+** Corps Du Site
+***************/
+.corps{
+    padding: 0% 2%;;
+}
+.domaineCompétence table{
+    width: 100%;
+}
+.domaineCompétence table td, .domaineCompétence table th{
+    padding: 10px 20px;
+    border: 1px solid
+}
+th{
+    color: #1490D7;
+}
+.marginTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 80%;
+}
+.margin-right5{
+    margin-right: 5px;
+}
+.bottomContact{
+    margin-left: 29.2%;
+    width: 100px;
+}
+/*******************
+** Fin Corps Du Site
+********************/
+
+/****************
+** Media Queries
+****************/
+@media(max-width: 768px){
+    .size20{
+        font-size: 14px;
+    }
+    .size40{
+        font-size: 19px;
+    }
+    .header .photoPerso img{
+        height: 200px;
+    }
+    .col1{
+        width: 30%;
+        display: none;
+    }
+    .col2{
+        width: 70%;
+    }
+}
+@media(min-width: 769px) and (max-width: 1300px){
+    .size20{
+        font-size: 14px;
+    }
+    .size40{
+        font-size: 22px;
+    }
+    .header .photoPerso img{
+        height: 200px;
+    }
+    .col1{
+        width: 30%;
+    }
+    .col2{
+        width: 60%;
+    }
+}

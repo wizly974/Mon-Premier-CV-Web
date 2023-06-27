@@ -1,0 +1,48 @@
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    width: 33.3%;
+    text-align : center;
+}
+nav a{
+    display: block;
+    color: white;
+    /* si paddign a 2 valeurs la première c'est pour le haut et
+       le bas, la deuxième c'est pour la droite et la gauche.*/ 
+    padding: 20px 30px;
+    text-transform: uppercase ;
+    text-decoration: none;
+}
+
+/* 
+    pourquoi 15px dans na li:hover a{}
+    car dans nav a{padding est 20px}
+    et que dans les borders sont defini à 5px
+    donc 20 - 5 = 15px
+    On ajuste pour regler le décalage provoquer par la bordure. 
+*/
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+    /*quand on écrit 4 valeur sur la ligne padding,
+    c'est d'abord le haut ensuite en à droite en bas et à gauche*/
+} 
+.menuInfo:hover{
+    border-top:solid 5px gray ;
+    background-color: rgb(21, 131, 131)
+}
+.menuExperience:hover{
+    border-top:solid 5px rgb(216, 219, 45) ;
+    background-color: rgba(163, 100, 5, 0.801);
+}
+.menuContact:hover{
+    border-top:solid 5px rgb(226, 112, 5) ;
+    background-color: rgb(218, 233, 16);
+}
+  
+
+  

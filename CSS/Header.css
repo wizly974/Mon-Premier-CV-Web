@@ -1,0 +1,83 @@
+/*********
+** GENERAL
+**********/
+body{
+    font-family: 'Berlin Sans FB' , 'Trebuchet MS', Arial;
+    /* plusieur police disponible si
+       le navigeur ne prend pas en compte la police*/
+       border: 1px solid rgb(28, 28, 70) ;
+}
+.size20{
+    font-size: 20px;
+}
+.size40{
+    font-size: 40px;
+}
+.text-center{
+    text-align: center;
+}
+.colorBlueDark{
+    color: #283645;
+}
+.colorBlueLight{
+    color: #1490D7;
+}
+.colorOrange{
+    color: #FF8000;
+}
+.colorWhite{
+    color: white;
+}
+.bg-Color{
+    background-color: rgb(28, 28, 70);
+}
+.bg-ColorLight{
+    background-color: #1490D7;
+}
+h2{
+    padding: 0px;
+    margin: 30px 0px;
+}
+.borderBottomBlueDark{
+    border-bottom: 1px solid rgb(28, 28, 70) ;
+}
+.gauche{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+label{
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/*********
+** HEARDER
+**********/
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*  on peut ecrire de cette facon, cela veut dire que
+    dans heaer j'utilise la classe photo perso, 
+    si ma classe photo perso est en dehors de header 
+    les paramètre ne seront pas appliqué. */
+.header .photoPerso ,header .infoPerso{
+  width: 33.3%;
+}
+.header .photoPerso img{
+    height: 250px;
+}
+.header .PosteRecherche{
+    flex: auto;
+}
+/************
+** FIN HEADER
+*************/
+
